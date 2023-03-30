@@ -274,8 +274,10 @@ console.log(new_a_3);//[1, 2, 3, 4, 5, 36, 49, 64, 81, 100]
 //Sử dụng Array.reduce() để trả về một kết quả duy nhất
 var sum_a_3 = a_3.reduce(function(sum, currentValue) {
     return sum + currentValue;
-});
+}, 0);
 console.log(sum_a_3);//55
+var a_4 = [1, 2, [[3, 4], 5], 6, [7, 8, 9], 10];
+console.log(a_4.flat(2));// Trong đó : 2 trong hàm flat là mức độ sâu của mảng để làm phẳng
 //----------------------------------------------------------------------------------------------------------
 //-------------------------------------------Kiểu Object----------------------------------------------------
 //Khởi tạo bằng một cặp ngoặc nhọn, chứa các cặp key:value
