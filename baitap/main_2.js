@@ -1,5 +1,11 @@
 /*
 //--------------------------------Reduce với mảng đơn giản---------------------
+// Syntax:
+
+
+//array.reduce(function(total, currentValue, currentIndex, arr), initialValue)
+//Kết quả trả về phụ thuộc vào hàm gọi
+
 var arr_1 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 //Tính tổng: 
 //Dùng reduce có sẵn của Array:
@@ -19,6 +25,7 @@ function numberHandle(accumulator, currentValue){
 //Sử dụng thuộc tính protype để tạo một phương thức mới
 //hàm reduce nhận 2 đối số là callbackfuction và giá trị khởi tạo
 */
+/*
 Array.prototype.reduce_2 = function(callback, result){
     //Tính độ dài của mảng
     var leng = this.length;
@@ -43,6 +50,7 @@ var total_2 = arr_1.reduce_2(numberHandle);
 console.log(total_2);
 */
 //-----------------------------------reduce với mảng phức tạp-----------------
+/*
 var arr_2 = [
     {
         name: 'JavaScript',
@@ -71,3 +79,4 @@ var sum_2 = arr_2.reduce_2(function(totalCoin, currentCoin){
 }, 0);
 
 console.log(sum_2);
+*/
