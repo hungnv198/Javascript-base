@@ -4,6 +4,7 @@
 //filter không làm thay đổi mảng gốc
 //Cú pháp: array.filter(function(currentValue, index, arr), thisValue)
 //Kết quả trả về một mảng chứa các đối tượng đúng với yêu cầu
+/*
 //Ví dụ 1:
 const ages = [32, 33, 16, 40];
 const result = ages.filter(checkAdult);
@@ -31,3 +32,4 @@ Array.prototype.myFilter = function(callback){
 }
 var result_2 = ages.myFilter(checkAdult);
 console.log(result_2);
+*/

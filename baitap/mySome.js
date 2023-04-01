@@ -1,0 +1,1 @@
+//Khoi tao va lam viec voi ham some trong array
