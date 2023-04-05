@@ -5,12 +5,105 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <!-- Để link file js trong thẻ script -->
-    <script src="./main.js"></script>
-    <script src="./review_array.js"></script>
-
+    <style>
+        #contain{
+            width: 400px;
+            height: 400px;
+            position: relative;
+            background: yellow;
+        }
+        #animation{
+            width: 50px;
+            height: 50px;
+            position: relative;
+            background: red;
+        }
+        .box{
+            text-align: center;
+            line-height: 90px;
+            width: 100%;
+            height: 90px;
+            background-color: red;
+            color: white;
+            font-size: 3rem;
+        }
+        .image{
+            width: 200px;
+            height: 200px;
+            background-size: contain;
+        }
+        .list{
+            display: none;
+        }
+        .class1{
+            color: red;
+            font-size: 3rem;
+        }
+    </style>
 </head>
 <body>
+    <!--  -->
+    <!-- Code -->
+    <!-- Find HTML-ele by id -->
+    <!-- <div id="id">Test find HTML-ele by ID
+        <p>Test find HTML-ele by tagname - 1</p>
+        <p>Test find HTML-ele by tagname - 2</p>
+        <p>Test find HTML-ele by tagname - 3</p>
+        <p>Test find HTML-ele by tagname - 4</p>
+    </div> -->
+    <!--  -->
+    <!-- Find HTML-ele by tagname -->
+    <!-- <p>Test find HTML-ele by tagname - 5</p>
+    <p>Test find HTML-ele by tagname - 6</p>
+    <p>Test find HTML-ele by tagname - 7</p>
+    <p>Test find HTML-ele by tagname - 8</p> -->
+    <!-- Find HTML-ele by classname, CSS selector -->
+    <!-- <p class="intro">Hello World!</p>
+    <p class="intro">Xin chào các bạn</p> -->
+    <!-- Find HTML-ele by HTML collection -->
+    <!-- <form action="" id="fr-1" name="form" onclick="return validateForm()">
+        First name: <input type="text" name="fname" >
+        <input type="submit" value="submit">
+    </form> -->
+    <!-- innerHTML -->
+    <!-- <p id="p1">Hello World</p>
+    <button type="button" onclick="document.getElementById('p1').style.color = 'purple'">Cleck me đe</button> -->
+    <!--  -->
+    <!-- <h1 id="id1">My Heading 1</h1>
+
+    <button type="button" onclick="document.getElementById('id1').style.color = 'red'">
+    Click Me!</button> -->
+    <!-- DOM Animation -->
+    <!-- <h1>My first JavaScript Animation</h1>
+    <div id="contain">
+        <div id="animation">
+            My Animation will go there!
+        </div>
+    </div>
+    <button type="button" onclick="my_move()">Cleck animation</button> -->
+    <!-- <h1 id="check" >Cleck on this text!</h1> -->
+    <!-- <input type="text" id="number"> -->
+    <!-- Onmouse over/ onmouseout -->
+    <!-- <div class="box">
+        <img src="./image/vet.jpg" alt="" class="image">
+    </div> -->
+    <!-- onfocus -->
+    <!-- <input type="text" class="input">
+    <ul class="list">
+        <li>Bạn nhập đi</li>
+        <li>Bạn chờ gì nữa</li>
+        <li>Bạn đang nhập rồi đúng không</li>
+    </ul> -->
+    <!-- Tạo 1 node mới trong HTML DOM -->
+    <!-- Xóa một node trong HTML DOM -->
+    <!-- <input type="text" id="test">
+    <p class="para">Xin chào các bạn</p> -->
+    <div class="test">
+        <p class="para">Xin chào các bạn!</p>
+    </div>
+    <!-- Để link file js trong thẻ script -->
     
+    <script src="./html_DOM.js"></script>
+
 </body>
 </html>
